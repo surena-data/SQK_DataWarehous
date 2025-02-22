@@ -89,4 +89,5 @@ I am Surena Mirshokraee for 4 years i worked as an industrial engineer and data 
 
 you can find me : 
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/surena-mirshokraee1997)
 
