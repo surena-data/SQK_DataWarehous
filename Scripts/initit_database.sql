@@ -1,6 +1,13 @@
--- create database "DataWarehouse"
 use master;
+go
 
+--Drop and recreate the DataWarehouse DataBase
+if EXISTS( Select 1 From sys.databases Where name = 'DataWarehouse')
+Begin
+		Alter DATABASE DataWarehouse Set Single_user with rollback immediate;
+		Drop  DATABASE DataWarehouse;
+End;
+go
 
 create database DataWarehouse;
 go
